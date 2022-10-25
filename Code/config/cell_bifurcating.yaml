@@ -1,0 +1,12 @@
+dataset_name: cell_bifurcating
+method_name: UMAP
+random_state: 42
+topo: [flare, connected_component]
+topo_weight: 10
+
+UMAP.emb_loss: True
+
+training.num_epochs: 100
+training.learning_rate: 0.1
+
+connected_component.sampling: False

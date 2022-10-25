@@ -1,0 +1,19 @@
+dataset_name: random
+method_name: TOPO
+random_state: 42
+topo: [custom]
+
+training.num_epochs: 500
+training.learning_rate: 0.01
+
+random.n: 20
+random.ndim: 2
+random.variance: 0.0675
+random.seed: 40
+random.noise: "normal"
+
+custom.sampling: False
+custom.weight: -1
+custom.dim: 0
+custom.i: 2
+custom.j: 2

@@ -1,0 +1,14 @@
+dataset_name: cell_cycle
+method_name: ManoptPCA
+random_state: 42
+topo: [one_circle]
+topo_weight: 0.01
+
+ManoptPCA.emb_loss: True
+training.max_iterations: 1000
+training.line_search: custom
+training.initial_step_size: 0.01
+
+one_circle.sampling: True
+one_circle.sampling_frac: 0.25
+one_circle.sampling_rep: 10

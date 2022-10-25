@@ -1,0 +1,19 @@
+dataset_name: circle
+method_name: ManoptPCA
+random_state: 42
+topo: [one_circle]
+topo_weight: 0.0005
+
+ManoptPCA.emb_loss: True
+training.max_iterations: 500
+training.line_search: custom
+training.initial_step_size: 0.01
+
+circle.n: 50
+circle.ndim: 500
+circle.seed: 420
+circle.variance: 0.0675 # equivalent to sigma: 0.45 (range [-0.45, 0.45])
+
+one_circle.sampling: True
+one_circle.sampling_frac: 0.4
+one_circle.sampling_rep: 5
